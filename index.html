@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Anwar Hussain</title>
+</head>
+<body>
+
+    <header>
+        <h1>Md. Anwar Hussain</h1>
+        <p>Aspiring Web Developer & Mathematics Student</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#media">Multimedia</a></li>
+                <li><a href="#contact">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+   
+    <main>
+
+       
+        <section id="about">
+            <h2>About Me</h2>
+            
+           
+            <p>
+                Hello! My name is <b>Md. Anwar Hussain</b>. I am a <i>passionate technology enthusiast</i> 
+                currently studying <u>Mathematics</u>. My primary focus is 
+                building clean, accessible, and user-friendly websites. Right now, I am 
+                <mark>learning HTML5 fundamentals</mark> to build a strong foundation in web development.
+            </p>
+
+            
+            <details>
+                <summary>Click to view more about my background and goals</summary>
+                <p>
+                    I started coding in high school and quickly fell in love with problem-solving. 
+                    Outside of academics, I enjoy contributing to open-source projects, reading sci-fi 
+                    novels, and exploring photography.
+                </p>
+            </details>
+
+            <br>
+
+           
+            <button type="button" onclick="alert('Thanks for visiting my profile!')">
+                Say Hello!
+            </button>
+        </section>
+
+        <hr>
+
+       
+        <section id="academics">
+            <h2>Academic Information</h2>
+            
+            
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Degree / Certificate</th>
+                        <th>Institution</th>
+                        <th>Passing Year</th>
+                        <th>Result / GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>Dhaka University</td>
+                        <td>2017</td>
+                        <td>3.09 / 4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate (HSC)</td>
+                        <td>Cantonment Public school and college, Momenshahi</td>
+                        <td>2010</td>
+                        <td>4.80 / 5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary School Certificate (SSC)</td>
+                        <td>Jamalpur Zilla School</td>
+                        <td>2008</td>
+                        <td>5.00 / 5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+       
+        <section id="media">
+            <h2>Multimedia Gallery</h2>
+
+            
+            <h3>Profile Photo</h3>
+            <img src="https://scontent.fdac8-1.fna.fbcdn.net/v/t1.6435-9/206512988_4010295732341130_807726023076046798_n.png?stp=dst-png&cstp=mx807x807&ctp=s807x807&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHCFfhitrOHZDH1U2WEcPZy7M-1swqb3szsz7WzCpvezNyKpylkYB3K9pZvQDWraWirLafFSi5FBB79Q49DHoqc&_nc_ohc=-RxtJ88_mlEQ7kNvwHtmr8J&_nc_oc=Adq_4ONsqvHj7Qxxd7ADw-SqD8J7JRbtNBsg_5EM9F2lWaszjeOfO1pMaOYsDCvOjXQ&_nc_zt=23&_nc_ht=scontent.fdac8-1.fna&_nc_gid=L9iZeM6co7r6G8pj4_ovig&_nc_ss=7b2a8&oh=00_AQQewJhjOZy99wHsQMubw9uN9wEyv2ZyrAHzVfyzxNXJ0w&oe=6B2C0CAB" alt="Profile picture of anwar" width="200" height="200">
+
+           
+            <h3>Favorite Background Track</h3>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <hr>
+
+        
+        <section id="contact">
+            <h2>Connect With Me</h2>
+
+            
+            <form action="#" method="post">
+              
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+              
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+               
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+              
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="coding" name="hobbies" value="coding">
+                <label for="coding">Coding</label><br>
+
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label><br>
+
+                <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                <label for="gaming">Gaming</label><br>
+
+                <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                <label for="traveling">Traveling</label><br><br>
+
+               
+                <input type="submit" value="Submit Profile">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+   
+    <footer>
+        <p>&copy; 2026 Anwar Hussain. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
